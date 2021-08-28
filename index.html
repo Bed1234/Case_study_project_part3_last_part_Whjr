@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Rampart+One&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="announcement">
+      <marquee id="marqueeStyle">
+      <img id="heading" src="heading.jpg">     **** Case Study ****      <b> MobileNet</b>   Vs  <b>Microsoft Azure</b> <img id="heading" src="heading.jpg"> 
+      </marquee>
+
+        <img src = "case-studies-banner-4.gif" id="captured_img">
+      
+    <ol start="1">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "bottle" src = "bottle.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure-</b>
+          <span>A bottle of Water</span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet-</b>
+          <span>Water Bottle</span>
+        </h5>
+
+      </div>
+    </ol>
+    
+    
+    <ol start="2">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "cup" src = "cup.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure - </b>
+          <span>A cup of coffe</span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet - </b>
+          <span>Coffe Mug</span>
+        </h5>
+
+      </div>
+    </ol>
+
+
+
+    <ol start="3">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "remote" src = "Remote.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure - </b>
+          <span>A remote control on a wooden surface</span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet - </b>
+          <span>Remote control, Remote</span>
+        </h5>
+
+      </div>
+    </ol>
+
+
+    <ol start="4">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "mouse" src = "mouse.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure - </b>
+          <span>A mouse sitting on top of a wooden table</span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet - </b>
+          <span>Mouse, Computer Mouse</span>
+        </h5>
+
+      </div>
+    </ol>
+
+    <ol start="5">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "watch" src = "watch.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure - </b>
+          <span>A close up of a clock</span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet - </b>
+          <span>Cellular telephone, Cellular phone, Cellphone, cell, Mobile phone</span>
+        </h5>
+
+      </div>
+    </ol>
+
+    <ol start="6">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "speaker" src = "sound_speaker.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure - </b>
+          <span>Undefined</span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet - </b>
+          <span>Loudspeaker, Speaker, Speaker unit, Loudspeaker system, Speaker system</span>
+        </h5>
+
+      </div>
+    </ol>
+
+    <ol start="7"> 
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "doll" src = "doll.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure - </b>
+          <span>A teddy bear</span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet - </b>
+          <span>Teddy, Teddy bear</span>
+        </h5>
+
+      </div>
+    </ol>
+
+
+    <ol start="8">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "fan" src = "fan.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure - </b>
+          <span>Text</span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet - </b>
+          <span>Tripod</span>
+        </h5>
+
+      </div>
+    </ol>
+
+
+    <ol start="9">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "phone" src = "phone.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure - Graphical user interface, application</b>
+          <span></span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet - </b>
+          <span>Ipod</span>
+        </h5>
+
+      </div>
+    </ol>
+
+    <ol start="10">
+      <br><br>
+      <div class = "text_images_and_result">
+        <li>
+          <b>Test Image - </b>
+          <br>
+          <img id = "keyboard" src = "keyboard.jpg">
+        </li>
+
+        <h5>
+          Output on <b>Microsoft Azure - A desk with a computer mouse and keyboard</b>
+          <span></span>
+        </h5>
+
+        <h5>
+          Output on <b>Mobilenet - </b>
+          <span>Computer Keyboard,Keypad</span>
+        </h5>
+
+      </div>
+    </ol>
+<br><br>
+<hr>
+    <div class="bob3" id="result_div">
+     <h3>Result - </h3>
+     <hr>
+     <h4>I  have tested 10 images.Some of the answers of <b>Mobilenet</b> and <b>Microsoft Azure</b> is somewhat same.
+       <b>Mobilenet</b> have predicted 9 of them correctly. And  <b>Microsoft Azure</b>  have predicted 5 of them correctly.So
+       <b>ACCURDING TO MY CASE STUDY MOBILENET IS MORE ACCURATE.</b>
+    </h4>
+    </div>
+
+  </body>
+</html>
